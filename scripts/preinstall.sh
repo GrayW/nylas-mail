@@ -9,3 +9,4 @@ if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
     tar xvf packages/client-private-plugins/encrypted_certificates/travis/travis-files.tar --directory=packages/client-app/build/resources/
     source packages/client-app/build/resources/certs/mac/set_unix_env.sh
 fi
+set +ex
