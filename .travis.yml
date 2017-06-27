@@ -42,7 +42,7 @@ before_install:
 - mkdir packages/client-app/build/resources/certs;
 - tar xvf packages/client-private-plugins/encrypted_certificates/travis/travis-files.tar
   --directory=packages/client-app/build/resources/;
-- source packages/client-app/build/resources/certs/mac/set_unix_env.sh;
+#- source packages/client-app/build/resources/certs/mac/set_unix_env.sh;
 
 install:
 - git clone https://github.com/creationix/nvm.git /tmp/.nvm
